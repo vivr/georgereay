@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  background-color: #736451
+  background-color: #736451;
 }
 
 .header {
@@ -27,15 +27,13 @@ p {
   color: #619FBF;
   font-size: 2rem;
   line-height: 3rem;
-  max-width: 40rem;
-  min-width: 23rem;
 }
 
 
 
 svg { 
   width: 100%;
-  max-width: 50rem; 
+  max-width: 40rem; 
 }
 
 .st0 { fill: #bfaf9a; }
@@ -98,6 +96,7 @@ footer a:hover {
   top: 0;
   left: 0;
   width: 100vw;
+  height: 100vh:
   background: rgba(32, 32, 39, 0.5);
   display: flex;
   align-items: center;
@@ -115,6 +114,7 @@ footer a:hover {
 
 .gallery-lightbox__content {
   width: 75%;
+  height: 100vh:
   max-width: 33.25rem;
   padding: 1em;
   background: #d5e2dd;
