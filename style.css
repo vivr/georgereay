@@ -7,8 +7,7 @@ html {
   box-sizing: inherit;
 }
 
-img,
-svg {
+img {
   display: block;
   max-width: 100%;
 }
@@ -17,8 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  background-color: #736451;
-  max-width: 186rem;
+  background-color: #736451
 }
 
 .header {
@@ -33,10 +31,7 @@ p {
   min-width: 23rem;
 }
 
-img {
-  margin: 0 auto;
-  max-width: 100%;
-}
+
 
 svg { 
   width: 100%;
@@ -93,8 +88,7 @@ footer a:hover {
     aspect-ratio: 16 / 9;
 }
 .gallery-lightbox__image{
-  /* width: 80%; */
-  height: 80vh;
+  width: 80%;
   display: block;
   border-radius: 5px;
 }
@@ -104,7 +98,6 @@ footer a:hover {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
   background: rgba(32, 32, 39, 0.5);
   display: flex;
   align-items: center;
