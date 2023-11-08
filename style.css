@@ -104,7 +104,7 @@ position: fixed;
 }
 
 .gallery-lightbox__content {
-    width: 100%;
+    width: 80%;
   max-width: 33.25rem;
   background-color: white;
   padding: 1rem;
