@@ -74,11 +74,13 @@ footer a:hover {
 }
 
 .gallery-lightbox__image{
-  width: 80%;
+max-width:100%;
   height: auto;
-  aspect-ratio: 16/9
-  display: block;
-  border-radius: 5px;
+  vertical-align: middle;
+  background-size:cover;
+  shape-margin:0.75rem
+  
+  
 }
 
 .gallery-lightbox {
