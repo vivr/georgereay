@@ -108,7 +108,7 @@ position: fixed;
   max-width: 33.25rem;
   padding: 1rem;
   position: relative;
-  background: rgba(32, 32, 39, 0.85);
+  background-color: #d5e2dd;
   display: flex;
   align-items: center;
   justify-content: center;
