@@ -74,11 +74,8 @@ footer a:hover {
 }
 
 .gallery-lightbox__image{
-max-width:100%;
-  height: auto;
-  vertical-align: middle;
-  background-size:cover;
-  shape-margin:0.75rem
+object-fit: cover;
+  height: 30vh;
   
   
 }
