@@ -67,7 +67,7 @@ footer a:hover {
   cursor: pointer;
 }
 .gallery__image {
-    width: 80%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     aspect-ratio: 16 / 9;
@@ -104,7 +104,7 @@ position: fixed;
 }
 
 .gallery-lightbox__content {
-    width: 75%;
+    width: 100%;
   max-width: 33.25rem;
   background-color: white;
   padding: 1rem;
