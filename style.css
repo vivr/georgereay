@@ -113,13 +113,7 @@ footer {
   aspect-ratio: 1/1;
   object-fit: cover;
   inline-size: 100%;
-
   filter: grayscale(100%);
-}
-
-*:focus {
-  outline: 4px solid var(--accent);
-  outline-offset: 4px;
 }
 
 .gallery__item img:hover {
@@ -129,7 +123,7 @@ footer {
 
 .snaps-inline {
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: var(--spacer-sm);
+  scroll-padding-inline: var(--spacer);
 }
 
 .snaps-inline > * {
@@ -191,4 +185,4 @@ footer {
   .close::after {
     color: var(--background);
   }
-} /*# sourceMappingURL=style.css.map */
+}
