@@ -81,11 +81,25 @@ footer {
   overscroll-behavior-inline: contain;
   padding: var(--spacer-sm);
   background: var(--secondary);
-  grid-auto-columns: 17%;
+  grid-auto-columns: 42%;
   grid-auto-flow: column;
   margin: 4rem 0;
   display: grid;
   overflow-x: auto;
+}
+
+@media (min-width: 48.75em) {
+  .gallery {
+    grid-auto-columns: 17%;
+    gap: var(--spacer);
+    padding: var(--spacer);
+  }
+  .gallery__item {
+    padding: var(--spacer);
+  }
+  .snaps-inline {
+    scroll-padding-inline: var(--spacer);
+  }
 }
 
 .gallery__item {
@@ -122,18 +136,6 @@ footer {
   scroll-snap-align: start;
 }
 
-@media (min-width: 42.8125em) {
-  .gallery {
-    gap: var(--spacer);
-    padding: var(--spacer);
-  }
-  .gallery__item {
-    padding: var(--spacer);
-  }
-  .snaps-inline {
-    scroll-padding-inline: var(--spacer);
-  }
-}
 /* LIGHTBOX */
 .gallery-lightbox__image {
   object-fit: cover;
