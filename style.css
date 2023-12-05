@@ -2,7 +2,7 @@
   --text: #2c1e02;
   --background: #cdc6c8;
   --secondary: #d8d5d6;
-  --accent: #a91e14;
+  --accent: #f5b2b2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,7 +10,7 @@
     --text: #fdefd3;
     --background: #393234;
     --secondary: #2a2728;
-    --accent: #eb6056;
+    --accent: #9c1111;
   }
 }
 html {
