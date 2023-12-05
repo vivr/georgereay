@@ -69,8 +69,7 @@ h1 {
   }
 }
 h1 span {
-  font-size: 0.8rem;
-  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 footer {
@@ -106,6 +105,16 @@ footer {
   inline-size: 100%;
 
   filter: grayscale(100%);
+}
+
+*:focus {
+  outline: 4px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.gallery__item img:hover {
+  outline: none;
+  filter: grayscale(0);
 }
 
 .snaps-inline {
