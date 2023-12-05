@@ -51,7 +51,7 @@ a {
 
 a:hover,
 a.active {
-  color: var(--accent);
+  color: var(--text);
 }
 
 h1 {
@@ -63,13 +63,9 @@ h1 {
   display: inline-block;
 }
 
-@media (prefers-color-scheme: light) {
-  h1 {
-    color: var(--background);
-  }
-}
 h1 span {
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 footer {
