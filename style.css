@@ -88,20 +88,6 @@ footer {
   overflow-x: auto;
 }
 
-@media (min-width: 48.75em) {
-  .gallery {
-    grid-auto-columns: 17%;
-    gap: var(--spacer);
-    padding: var(--spacer);
-  }
-  .gallery__item {
-    padding: var(--spacer);
-  }
-  .snaps-inline {
-    scroll-padding-inline: var(--spacer);
-  }
-}
-
 .gallery__item {
   padding: var(--spacer-sm);
   background: var(--text);
@@ -123,11 +109,25 @@ footer {
 
 .snaps-inline {
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: var(--spacer);
+  scroll-padding-inline: var(--spacer-sm);
 }
 
 .snaps-inline > * {
   scroll-snap-align: start;
+}
+
+@media (min-width: 48.75em) {
+  .gallery {
+    grid-auto-columns: 17%;
+    gap: var(--spacer);
+    padding: var(--spacer);
+  }
+  .gallery__item {
+    padding: var(--spacer);
+  }
+  .snaps-inline {
+    scroll-padding-inline: var(--spacer);
+  }
 }
 
 /* LIGHTBOX */
